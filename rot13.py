@@ -35,8 +35,7 @@ def encode(arg):
     	try:
             output += rot13[ab.index(arg[i])]
     	except:
-    		output += arg[i]
-
+            output += arg[i]
     print output
 
 def decode(arg):
